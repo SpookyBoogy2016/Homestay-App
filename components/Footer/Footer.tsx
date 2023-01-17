@@ -33,7 +33,7 @@ function Footer() {
         <p>Trust & Safety</p>
         <p>Contact Us</p>
         <p>Our Location</p>
-        <p>Carreer</p>
+        <p>Carreers</p>
       </div>
     </div>
   );
