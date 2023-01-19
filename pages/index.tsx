@@ -5,11 +5,8 @@ import SmallCard from "../components/SmallCard/SmallCard";
 import MediumCard from "../components/MediumCard/MediumCard";
 import LargeCard from "../components/LargeCard/LargeCard";
 import Footer from "../components/Footer/Footer";
-
-interface Props {
-  exploreData: [img: string, location: string, distance: string];
-  cardsData: [img: string, title: String];
-}
+import React from "react";
+import { Props } from "../public/types/typings.Home";
 
 function Home({ exploreData, cardsData }: Props) {
   return (
